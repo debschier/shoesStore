@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+.logo {
+    width: 209px;
+    height: 104px;
+    left: 19px;
+    top: 9px;
+}
+
+.menu {
+    font-family: "Open-Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: rgba(119, 119, 119, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.banner {
+    opacity: 80%;
+    background: #FFFFFF;
+}
+
+.estilo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold 600;
+    font-size: 40px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+}
+
+.destaque {
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.foto1 {
+    padding-top: 668px;
+    padding-left: 113px;
+    padding-right: 42px;
+    width: 400px;
+    height: 600px;
+    left: 113px;
+    top: 668px;
+  
+}
+
+.foto2 {
+    padding-right: 113px;
+    width: 600px;
+    height: 757.94px;
+    left: 567px;
+    top: 589px;
+   
+}
+align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
