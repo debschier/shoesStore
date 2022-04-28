@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
-.logo {
-    width: 209px;
-    height: 104px;
-    left: 19px;
-    top: 9px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.menu {
-    font-family: "Open-Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 33px;
-    color: rgba(119, 119, 119, 1);
+.header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 39px 9px 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #777777;
+    text-transform: uppercase;
 }
 
 body {
@@ -51,7 +66,7 @@ body {
     height: 600px;
     left: 113px;
     top: 668px;
-  
+
 }
 
 .foto2 {
@@ -60,6 +75,19 @@ body {
     height: 757.94px;
     left: 567px;
     top: 589px;
-   
+
 }
-align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+
+#box {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(194, 24, 91, 1);
+    padding-top: 175px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 99px;
+}
+
+.sapato {
+    padding: 10px 10px 10px;
+}
