@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -54,14 +54,16 @@ body {
 }
 
 .destaque {
-    justify-content: space-around;
-    align-items: baseline;
+    display: inline-flex;
+    position: relative;
+
+
 }
 
 .foto1 {
-    padding-top: 668px;
-    padding-left: 113px;
-    padding-right: 42px;
+    margin-right: 54px;
+    margin-left: 113px;
+    margin-top: 150px;
     width: 400px;
     height: 600px;
     left: 113px;
@@ -70,15 +72,18 @@ body {
 }
 
 .foto2 {
-    padding-right: 113px;
+    padding-top: 82px;
     width: 600px;
     height: 757.94px;
     left: 567px;
     top: 589px;
 
+
 }
 
 #box {
+
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     background-color: rgba(194, 24, 91, 1);
@@ -90,4 +95,73 @@ body {
 
 .sapato {
     padding: 10px 10px 10px;
+}
+
+.estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#final {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 127px;
+        align-items: flex-end;
+}
+
+.foto3 {
+    
+    width: 513px;
+    height: 663px;
+    left: 127px;
+    top: 2655px;
+
+
+}
+
+.foto4 {
+
+width: 507px;
+height: 939px;
+left: 668px;
+top: 2379px;
+
+}
+
+.footer{
+    height: 248px;
+    width: 100%;
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-around;
+}
+.footer #logoFooter{
+    background-image: url();
+    height: 123px;
+    width: 233px;
+}
+.footer #logoFooter p{
+    padding-left: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.lista{
+    align-self: center;
+}
+.lista ul p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.lista ul li{
+    list-style-type: none;
+    
+}
+.lista ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
