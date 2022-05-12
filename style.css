@@ -103,65 +103,109 @@ body {
     align-items: center;
 }
 
-#final {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 127px;
-        align-items: flex-end;
+.destaque1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 39px;
+    line-height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 127px;
+    align-items: flex-end;
 }
 
-.foto3 {
-    
-    width: 513px;
-    height: 663px;
-    left: 127px;
-    top: 2655px;
-
-
-}
-
-.foto4 {
-
-width: 507px;
-height: 939px;
-left: 668px;
-top: 2379px;
+.final {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 116px;
 
 }
 
-.footer{
+.foto3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 127px;
+    align-items: flex-end;
+
+}
+
+.foto4 img{
+    height: 939px;
+    width: 507px;
+
+}
+
+.foto3 p{
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+}
+.foto3 #verdetalhes {
+    margin-top: 15px;
+    display: flex;
+    height: 99px;
+    width: 403px;
+    background-color:#C2185B;
+    margin-bottom: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.foto3 #verdetalhes a{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    text-decoration: none;
+}
+
+.foto4{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 105px;
+    margin-left: 28px;
+}
+
+
+.footer {
     height: 248px;
     width: 100%;
     background-color: #C2185B;
     display: flex;
     justify-content: space-around;
 }
-.footer #logoFooter{
+
+.footer #logoFooter {
     background-image: url();
     height: 123px;
     width: 233px;
 }
-.footer #logoFooter p{
+
+.footer #logoFooter p {
     padding-left: 15px;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 }
-.lista{
+
+.lista {
     align-self: center;
 }
-.lista ul p{
+
+.lista ul p {
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
 }
-.lista ul li{
+
+.lista ul li {
     list-style-type: none;
-    
+
 }
-.lista ul li a{
+
+.lista ul li a {
     color: #FFFFFF;
     text-decoration: none;
 }
